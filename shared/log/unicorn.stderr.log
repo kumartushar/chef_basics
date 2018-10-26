@@ -1,0 +1,12 @@
+I, [2018-10-26T17:44:23.907614 #22922]  INFO -- : Refreshing Gem list
+I, [2018-10-26T17:44:24.829871 #22922]  INFO -- : listening on addr=/tmp/unicorn.chef_basics_3.sock fd=11
+I, [2018-10-26T17:44:24.829968 #22922]  INFO -- : worker=0 spawning...
+I, [2018-10-26T17:44:24.830951 #22922]  INFO -- : worker=1 spawning...
+I, [2018-10-26T17:44:24.831404 #22925]  INFO -- : worker=0 spawned pid=22925
+I, [2018-10-26T17:44:24.831557 #22925]  INFO -- : worker=0 ready
+I, [2018-10-26T17:44:24.831977 #22922]  INFO -- : master process ready
+I, [2018-10-26T17:44:24.832382 #22928]  INFO -- : worker=1 spawned pid=22928
+I, [2018-10-26T17:44:24.832516 #22928]  INFO -- : worker=1 ready
+I, [2018-10-26T17:51:13.004873 #22922]  INFO -- : reaped #<Process::Status: pid 22925 exit 0> worker=0
+I, [2018-10-26T17:51:13.005246 #22922]  INFO -- : reaped #<Process::Status: pid 22928 exit 0> worker=1
+I, [2018-10-26T17:51:13.006082 #22922]  INFO -- : master complete

@@ -1,0 +1,28 @@
+{
+    "run_list": [
+        "recipe[chef_basics_3]",
+        "recipe[chef_basics_3::user]",
+        "recipe[chef_basics_3::nodejs]",
+        "recipe[chef_basics_3::postgres]",
+        "recipe[chef_basics_3::rbenv]",
+        "recipe[chef_basics_3::redis]",
+        "recipe[chef_basics_3::nginx]",
+        "recipe[chef_basics_3::app]"
+    ],
+
+    "group": "ubuntunode",
+    "port": 22,
+  
+    "user": {
+      "name": "ubuntuwk",
+      "password": "$1$EdWUNivh$KQu0DrTgl8pOBZ9YFKm8k0"
+    },
+  
+    "db": {
+        "root_password": "postgres1",
+        "user": {
+            "name": "ubuntuwk",
+            "password": "postgres1"
+        }
+    }
+}
